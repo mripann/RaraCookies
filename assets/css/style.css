@@ -1,0 +1,95 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #eac0a2;
+    margin: 0;
+    padding: 0;
+  }
+  
+.topbar {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .offcanvas.show ~ .topbar {
+    transform: translateX(250px);
+  }
+  
+  @media (max-width: 767px) {
+    .offcanvas.show ~ main {
+      transform: translateX(250px);
+      
+    }
+    
+    .offcanvas.show ~ .topbar {
+      transform: translateX(250px);
+    }
+  }
+  
+  /* Untuk desktop */
+  @media (min-width: 768px) {
+    .offcanvas ~ main {
+      margin-left: 0;
+    }
+    
+    .offcanvas.show ~ main {
+      margin-left: 250px;
+    }
+  }
+  
+  .menu-icons i {
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
+  .logo {
+    font-weight: bold;
+  }
+  
+  .sidebar {
+    background-color: #d7a580;
+    padding: 15px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #4b2e24;
+    font-weight: bold;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 30px;
+    background: #deb79f;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .produk-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .produk-item {
+    width: 150px;
+    text-align: center;
+  }
+  
+  .produk-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  

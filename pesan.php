@@ -1,12 +1,25 @@
-<div class="col-lg-9 bg-secondery mt-2">
-                <div class="card">
-                    <div class="card-header">
-                        Pesan
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Ini Adalah Pesan</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quo aut dignissimos quibusdam debitis accusantium, mollitia, autem quaerat impedit nobis magnam ad explicabo similique omnis perferendis modi, facilis voluptas? Corrupti.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
+<?php include 'header.php'; ?>
+<?php include 'sidebar.php'; ?>
+
+<div class="container py-4">
+  <h2 class="mb-4">Form Pemesanan</h2>
+  <form>
+    <div class="mb-3">
+      <label for="nama" class="form-label">Nama Customer</label>
+      <input type="text" class="form-control" id="nama" name="nama" required>
+    </div>
+    <div class="mb-3">
+      <label for="produk" class="form-label">Pilih Produk</label>
+      <select class="form-select" id="produk" name="produk">
+        <option value="kastengel">Kastengel</option>
+        <option value="nastar">Nastar</option>
+        <option value="sagu">Sagu Keju</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="jumlah" class="form-label">Jumlah</label>
+      <input type="number" class="form-control" id="jumlah" name="jumlah" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Pesan</button>
+  </form>
+</div>
