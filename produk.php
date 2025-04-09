@@ -1,12 +1,40 @@
-<div class="col-lg-9 bg-secondery mt-2">
-                <div class="card">
-                    <div class="card-header">
-                        Produk
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Ini Adalah Produk</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quo aut dignissimos quibusdam debitis accusantium, mollitia, autem quaerat impedit nobis magnam ad explicabo similique omnis perferendis modi, facilis voluptas? Corrupti.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
+<?php include 'header.php'; ?>
+<?php include 'sidebar.php'; ?>
+
+<div class="container">
+  <h1>Daftar Produk</h1>
+  <div class="produk-list">
+    <div class="produk-item">
+      <img src="assets/pict/kastengel.jpg" alt="kastengel">
+      <p>kastengel<br><strong>Rp.125k</strong></p>
+    </div>
+    <div class="produk-item">
+      <img src="assets/pict/sagu.jpg" alt="sagu keju">
+      <p>Sagu keju<br><strong>Rp.110k</strong></p>
+    </div>
+    <div class="produk-item">
+      <img src="assets/pict/kuecoklat.jpg" alt="kue coklat">
+      <p>kue coklat<br><strong>Rp.110k</strong></p>
+    </div>
+    <div class="produk-item">
+      <img src="assets/pict/kupinggajah.jpg" alt="kuping gajah">
+      <p>kuping gajah<br><strong>Rp.90k</strong></p>
+    </div>
+    <div class="produk-item">
+      <img src="assets/pict/pastel.jpg" alt="pastel">
+      <p>pastel<br><strong>Rp.110k</strong></p>
+    </div>
+    <div class="produk-item">
+      <img src="assets/pict/ladang.jpg" alt="ladang bawang">
+      <p>ladang bawang<br><strong>Rp.75k</strong></p>
+    </div>
+    <div class="produk-item">
+      <img src="assets/pict/widaran.jpg" alt="widaran">
+      <p>widaran<br><strong>Rp.75k</strong></p>
+    </div>
+    <div class="produk-item">
+      <img src="assets/pict/stik.jpg" alt="stik keju">
+      <p>Stik keju<br><strong>Rp.85k</strong></p>
+    </div>
+  </div>
+</div>
